@@ -59,6 +59,6 @@ $Bot->onMessage(function (Message $message){
 Message::addMethod("getLink", function (){
     $status_message = $this->reply($GLOBALS["CHECKING_MESSAGE"]);
     $req_message = $this->forward($GLOBALS["TG_DUMP_CHANNEL_ID"]);
-    $required_url = <b>Here's Your Shareable Link 📃:</b>\n\nhttps://t.me/" . $GLOBALS["TG_BOT_USERNAME"] . "?start=" . "view" . "_" . $req_message->message_id . "_" . "tg"."\n\n<b>Subscribe To Our Updates Channel</b> @FlixBots";
+    $required_url = <b>Here Is Your Shareable Link 📃:</b>\n\nhttps://t.me/" . $GLOBALS["TG_BOT_USERNAME"] . "?start=" . "view" . "_" . $req_message->message_id . "_" . "tg"."\n\n<b>Subscribe To Our Updates Channel</b> @FlixBots";
     $status_message->editText($required_url);
 });
