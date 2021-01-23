@@ -22,11 +22,15 @@ else {
 }
 
 $GLOBALS["START_MESSAGE"] = <<<EOM
-Thank you for using me <a href="https://github.com/skrtdev/FilesBot">😬</a>
+𝗛𝗲𝗹𝗹𝗼, 𝗜'𝗺 𝗮 <b><u>𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗤𝗨𝗜𝗖𝗞 𝗦𝗧𝗢𝗥𝗔𝗚𝗘 𝗕𝗢𝗧</u></b> 😀
 
-<u><b>you can forward me any media message</b></u>, and <b><i>I might help you to create a PUBlic link</i></b>.
+<b><u>How To Use This Bot & Benefits??</u></b>
 
-Subscribe ℹ️ @skrtdev if you ❤️ using this bot!
+<b>📍 Send Me Any File & It'll Be Uploaded Into My Database & You Get The File Link.</b>
+
+⚠️ <b><u>Benifit:</u></b> <b>If You Have Telegram Movie Channel, Then Its Useful For Your Daily Usage, You can Send Me Your File & I'll Send You The Link Of Your File So Your Subscribers Can Get The File From Me & Your Channel Will Be Safe From COPYRIGHT INFRINGEMENT Issue.</b>
+
+❌ <b><u>𝗣𝗢𝗥𝗡𝗢𝗚𝗥𝗔𝗣𝗛𝗜𝗖 𝗖𝗢𝗡𝗧𝗘𝗡𝗧𝗦</u></b> <b>Are Strictly Prohibited & Will Get You Banned Permanently.</b>
 EOM;
 $GLOBALS["CHECKING_MESSAGE"] = "🤔";
 require_once __DIR__ . "/../vendor/autoload.php";
